@@ -1,0 +1,22 @@
+.cell {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #fff;
+    display: table-cell;
+}
+
+.cell-input {
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    color: #4286f4;
+}
+
+    .cell-input:read-only {
+        color: #333;
+    }

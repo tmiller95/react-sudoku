@@ -1,0 +1,33 @@
+.board-table {
+    margin: auto;
+    background: #ccc;
+    border: 5px solid #ccc;
+}
+
+button {
+    background: #4286f4;
+    border-radius: 4px;
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+td:first-child {
+    border-left:solid;
+}
+
+td:nth-child(3n) {
+    border-right:solid;
+}
+
+tr:first-child {
+    border-top:solid;
+}
+
+tr:nth-child(3n) td {
+    border-bottom:solid;
+}
